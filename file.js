@@ -16,39 +16,39 @@ closeMenu.addEventListener('click', ()=>{
 const data = [
     {
         name:"Milton Njonya",
-        profession: "CEO and Founder of  WEBDEV MENTORS.",
+        profession: "CEO and Founder of  WEBDEV MENTORS",
         Image: "Images/speaker01.png",
-        description:"Created  WEBDEV MENTORS in 2010 to bring all web developer  across the world together widthout discrimination"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"
     },
     {
         name:"Micheal Jean",
-        profession: "Senoir software Engineer at Microsoft.",
+        profession: "Senoir software Engineer at Microsoft",
         Image: "Images/speaker02.png",
-        description:"Created Global school in 2012 to bring all the student together across the world widthout discrimination"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"
     },
     {
         name:"Mousa YAYA",
-        profession: "Senoir Developer at Microsoft.",
+        profession: "Senoir Developer at Microsoft",
         Image: "Images/speaker03.png",
-        description:"Created Global school in 2012 to bring all the student together across the world widthout discrimination"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"
     },
     {
         name:"Mousa YAYA",
-        profession: "Professor of Information Technology at Harvard University..",
+        profession: "Professor of Information Technology at Harvard University",
         Image: "Images/speaker04.png",
-        description:"Created Global school in 2012 to bring all the student together across the world widthout discrimination"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"
     },
     {
         name:"Mousa YAYA",
-        profession: "CEO and Founder of  WEBDEV MENTORS.",
+        profession: "CEO and Founder of  WEBDEV MENTORS",
         Image: "Images/speaker05.png",
-        description:"Created Global school in 2012 to bring all the student together across the world widthout discrimination"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"
     },
     {
         name:"Mousa YAYA",
-        profession: "CEO and Founder of  WEBDEV MENTORS.",
+        profession: "CEO and Founder of  WEBDEV MENTORS",
         Image: "Images/speaker06.png",
-        description:"Created Global school in 2012 to bring all the student together across the world widthout discrimination"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad"
     }
 ]
 
@@ -62,7 +62,7 @@ document.querySelector('.speaker').innerHTML = data.map((item, index)=>{
 
    btnMore.addEventListener('click', ()=>{
    const hideCard = document.querySelectorAll('.hide-card');
-   for(i = 0; i< hideCard.length; i++){
+   for(let i = 0; i< hideCard.length; i++){
     hideCard[i].style.display = 'flex';
    }
    btnHide.style.display = 'block';
@@ -71,13 +71,14 @@ document.querySelector('.speaker').innerHTML = data.map((item, index)=>{
 
    btnHide.addEventListener('click', ()=>{
     const hideCard = document.querySelectorAll('.hide-card');
-    for(i = 0; i< hideCard.length; i++){
+    for(let i = 0; i< hideCard.length; i++){
      hideCard[i].style.display = 'none';
     }
     btnHide.style.display = 'none';
     btnMore.style.display = 'block'
     })
     return `
+    <div class = "container">
        <div class = "speaker-card ${className}">
          <div class="image-container">
                 <img src="${item.Image}" alt="speaker" />
@@ -86,6 +87,7 @@ document.querySelector('.speaker').innerHTML = data.map((item, index)=>{
                 <h3 >${item.name}</h3>
                 <h4>${item.profession}.</h4>
                 <p>${item.description}</p>
+            </div>
             </div>
             </div>
     `

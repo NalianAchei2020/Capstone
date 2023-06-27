@@ -1,7 +1,7 @@
 
 header{
     display: none;
-    font-family: inherit;
+    font-family: 'Lato Black', sans-serif;
 }
 .logo{
     display: none;
@@ -13,10 +13,12 @@ header{
     align-items: center;
     font-size: 3.125rem;
     padding: 0.3em;
+    font-family: 'Lato Black', sans-serif;
 }
 #close{
     display: none;
     font-size: 4rem;
+    font-family: 'Lato Black', sans-serif;
 }
 .nav{
     display: flex;
@@ -45,6 +47,7 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 1rem;
+    font-family: 'Lato Black', sans-serif;
     margin: 0.625em;
     width: 80%;
     height: 50px;
@@ -52,7 +55,7 @@ header{
 }
 .nav-items li a{
 font-size: 1.125rem;   
-font-family: inherit;
+font-family: 'Lato Black', sans-serif;
 font-weight: 100;
 color: #272a31;
 }
@@ -81,7 +84,8 @@ main{
 .welcome-text{
    width: 100%; 
   color: #ec5242;
-  font-size: 19px;
+  font-size: 1.1875rem;
+  font-family: 'Lato Black', sans-serif;
   font-weight: bold;
   margin: 1.25em 0;
 }
@@ -89,7 +93,7 @@ main{
     font-size: 2.5rem;
     line-height: 48px;
     font-weight: 900;
-    font-family: inherit;
+    font-family: 'Lato Black', sans-serif;
     color: transparent;
     background-image: url('../Images/set-bg.jpg');
     -webkit-background-clip: text;
@@ -106,6 +110,7 @@ main{
   .time{
     font-size: 1.75rem;
     font-weight: 900;
+    font-family: 'Lato Black', sans-serif;
     color:#272a31;
     margin: 0.625em;
   }
@@ -113,6 +118,7 @@ main{
   .location{
     color: #272a31;
     font-size: 1.25em;
+    font-family: 'Lato Black', sans-serif;
     font-weight: 500;
     margin: 0.625em;
   }
@@ -176,12 +182,16 @@ main{
   .join a{
     color: #fff;
     font-size: 1.3rem;
+    font-family: 'Lato Black', sans-serif;
    font-weight: 500;
     white-space: nowrap;
   }
 
   .featured-speaker{
     width: 100%;
+    background-color: #d3d3d3;
+    margin-top: -2%;
+    padding: 1em;
   }
   .featured-speaker h2{
     color: #272a31;
@@ -219,12 +229,14 @@ main{
 
 .speaker-card-text h3{
     font-size: 1.17rem;
+    font-family: 'Lato Black', sans-serif;
     font-weight: bold;
 }
 
 .speaker-card-text h4{
     position: relative;
     font-size: 1.125rem;
+    font-family: 'Lato Black', sans-serif;
     margin-block: 0.2em 0.938em;
     color: #ec5242;
     font-style: italic;
@@ -233,7 +245,7 @@ main{
 
 .speaker-card-text h4::after {
     content: '';
-    background-color: #d3d3d3;
+    background-color: #c7bebe;
     position: absolute;
     display: block;
     width: 10%;
@@ -274,6 +286,7 @@ main{
 
   .title2 {
     font-size: 2.5rem;
+    font-family: 'Lato Black', sans-serif;
     font-weight: 900;
     color: #ec5242;
     line-height: 48px
@@ -308,10 +321,13 @@ main{
   .sec-two{
     width: 100%;
     padding: 1em;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
   }
 
   .sec-two h3{
     font-size: 1.5625rem;
+    font-family: 'Lato Black', sans-serif;
    line-height: 35px;
    color: #272a31;
    text-align: center;
@@ -332,6 +348,7 @@ main{
   .sec-two p{
     margin: 1em;
     font-size: 1rem;
+    font-family: 'Lato Black', sans-serif;
     font-size: 400;
   }
 
@@ -360,6 +377,7 @@ main{
   .sec-three h3{
     text-align: center;
     font-size: 1.5625rem;
+    font-family: 'Lato Black', sans-serif;
    line-height: 35px;
    color: #272a31;
    position: relative;
@@ -396,6 +414,7 @@ main{
   .past-events h1{
     color: #fff;
     font-size: 2.3125rem;
+    font-family: 'Lato Black', sans-serif;
     font-weight: bold;
   }
   .past-events p{
@@ -424,6 +443,7 @@ main{
     background-color: #272a31;
     color: #d3d3d3;
     padding: 1em;
+    width: 100%;
   }
 
   .about-partner article{
@@ -436,7 +456,7 @@ main{
   .about-partner h3{
     text-align: center;
     font-size: 25px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato Black', sans-serif;
     position: relative;
     line-height: 35px;
     margin: 10px;
@@ -450,7 +470,7 @@ main{
     display: block;
     position: absolute;
     left: 43%;
-    top: 110%;
+    
   }
 
   .icons2 i{
@@ -472,6 +492,7 @@ main{
 
   .footer-logo span{
     font-size: 1.25rem;
+    font-family: 'Lato Black', sans-serif;
     line-height: 24px;
     cursor: pointer;
   }

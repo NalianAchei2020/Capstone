@@ -10,19 +10,21 @@ header{
    position: relative;
    right: -60%;
    gap: 2em;
-   padding: .2em;
 }
 .header-items li{
     font-size: 1rem;
+    font-family: 'Lato Black', sans-serif;
 }
 .logo{
     display: block;
     margin: 0.625em 10%;
+    overflow-x: visible !important;
 }
 .logo a{
     font-size: 1.5rem;
     font-weight: bold;
     color: #272a31;
+    font-family: 'Lato Black', sans-serif;
 }
 .icons{
   display: none;
@@ -36,9 +38,10 @@ header{
     padding: 2em;
     height: 30px;
     position: sticky;
-    top: 0;
+    top: -2%;
     left: 0;
     background-color: #fff;
+    z-index: 99;
 }
 .nav{
     display: block;
@@ -88,11 +91,218 @@ header{
     .mian-text{
         width: 60%;
     }
-.partner{
-    display: grid;
+
+    .sec-title{
+        color: #d3d3d3;
+        margin: 20px auto;
+        width: 15%;
+        height: 40px;
+        display: block;
+        position: relative;
+    
+      }
+
+      .sec-title::after {
+        content: ' ';
+        width: 53px;
+        height: 1px;
+        position: absolute;
+        background-color: #ec5242;
+        display: block;
+        left: 25%;
+      }
+    
+    
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1px;
+        height: 240px;
+        background-color: rgba(39 42 49 / 75%);
+        width: 15%;
+        cursor: pointer;
+    }
+
+    .content:hover{
+        border: 2px solid #fff;
+    }
+    .content p{
+        width: 100%;
+        text-align: center;
+      }
+ .main-program article{
+    display: flex;
+    gap: .5em;
+    width: 90%;
+    margin: 0.5em auto;
+    justify-content: center;
+    align-items: center;
+ }    
+
+ .join{
+    background-color: unset;
+    text-decoration: underline;
+ }
+
+ .join a{
+    color: #fff;
+    font-size: 1rem;
+   font-weight: 500;
+    white-space: nowrap;
+  }
+ 
+  .hide-card{
+    display: flex;
+  }
+
+  #btn-more{
+    display: none;
+  }
+ 
+  .featured-speaker h2{
+    color: #272a31;
+    white-space: nowrap;
+    margin: 20px auto;
+    width: 20%;
+    height: 40px;
+    display: block;
+    position: relative;
+  }
+  .featured-speaker h2::after {
+    content: ' ';
+    width: 53px;
+    height: 1px;
+    position: absolute;
+    background-color: #ec5242;
+    display: block;
+    left: 30%;
+  }
+  .featured-speaker{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .speaker{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  .container{
+    padding: 20px;
+    flex-basis: 48%;
+   
+  }
+ 
+.speaker-card{
+    width: 100%;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5em;
 }
 
-footer{
+
+.partner{
+    display: block;
+}
+
+.about-partner h3::after{
+    content: '';
+    height: 1px;
+    width: 5%;
+    background-color: #ec5242;
+    display: block;
+    position: absolute;
+    left: 48%;
+    
+  }
+.about-partner article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 1em auto;
+    gap: 1em;
+  }
+.footer{
     display: grid;
+    background-color: #d3d3d3;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    height: 100px;
+   
+  }
+
+  /* about page*/
+  .title2 {
+    width: 60%;
+  }
+
+  .mian-text2 {
+   width: 70%;
+  }
+  .about-text{
+    display: none;
+  }
+.about, .sec-two,
+.sec-three{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sec-two p{
+    text-align: center;
+    width: 50%;
+    margin-top: -.8em;
+}
+
+.logo-set{
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    padding: .2em;
+    font-size: 3.75rem;
+    text-align: center;
+    margin-block: .5em ;
+    width: 60%;
+    cursor: pointer;
+  }
+.break{
+    display: none;
+}
+.sec-three{
+    margin-block: 2em;
+}
+.events{
+    display: grid;
+   grid-template-columns: auto auto;
+   gap: 1em;
+}
+.about-none{
+    display: none;
+}
+.foot{
+    background-color: #272a31;
+    color: #d3d3d3;
+}
+
+.white{
+    color: #d3d3d3;
+}
+.footer-logo span{
+    font-size: 2rem;
 }
 }
