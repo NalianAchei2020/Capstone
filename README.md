@@ -32,9 +32,9 @@
 
 # 📖 Capstone <a name="about-project"></a>
 
-This Capstone project is a mentorship platform for web developer. Here junoir developers(mentees) can get advice from senoir developers (mentor).
+This Capstone project is a mentorship platform for web developers. Here junior developers(mentees) can get advice from senior developers (mentors).
 
-*[Capstone]* is a HTML, Javascript, and CSS project
+*[Capstone]* is a Javascript, HTML, and CSS project
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -52,7 +52,10 @@ This Capstone project is a mentorship platform for web developer. Here junoir de
 - *About Page*
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo ](https://nalianachei2020.github.io/Portfolio/)
+- [Live Demo ](https://nalianachei2020.github.io/Capstone/)
+
+## 📹 Live Video <a name="live-demo"></a>
+- [Live video ](https://nalianachei2020.github.io/Capstone/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
