@@ -1,34 +1,39 @@
-@media(min-width:48em){
-header{
+@media (min-width: 48em) {
+  header {
     background-color: #272a31;
     width: 100%;
     display: block;
-}
-.header-items{
+  }
+
+  .header-items {
     display: flex;
     color: #fff;
-   position: relative;
-   right: -60%;
-   gap: 2em;
-   padding: .2em;
-}
-.header-items li{
+    position: relative;
+    right: -60%;
+    gap: 2em;
+    padding: 0.2em;
+  }
+
+  .header-items li {
     font-size: 1rem;
-}
-.logo{
+  }
+
+  .logo {
     display: block;
     margin: 0.625em 10%;
-}
-.logo a{
+  }
+
+  .logo a {
     font-size: 1.5rem;
     font-weight: bold;
     color: #272a31;
-}
-.icons{
-  display: none;
-}
+  }
 
-.nav-container{
+  .icons {
+    display: none;
+  }
+
+  .nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,13 +44,15 @@ header{
     top: 0;
     left: 0;
     background-color: #fff;
-}
-.nav{
+  }
+
+  .nav {
     display: block;
     margin: 0 5%;
     transition: width 1s ease-in-out;
-}
-.nav-items{
+  }
+
+  .nav-items {
     display: flex;
     visibility: visible;
     flex-direction: row;
@@ -53,9 +60,9 @@ header{
     transition: width 1s ease-in-out;
     position: relative;
     height: auto;
-}
+  }
 
-.nav-items li{
+  .nav-items li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,36 +70,40 @@ header{
     width: 100%;
     height: auto;
     text-align: center;
-}
+  }
 
-.nav-items li a{
-    font-size: 1rem;   
+  .nav-items li a {
+    font-size: 1rem;
     font-family: inherit;
     font-weight: 100;
     color: #272a31;
-    }
+  }
 
-    .home{
-        display: none;
-    }
-    .active a{
-        color: #ec5242 !important;
-    }
+  .home {
+    display: none;
+  }
 
-    .hero-section article{
-        width: 75%;
-    }
-    .title{
-        width: 80%;
-    }
-    .mian-text{
-        width: 60%;
-    }
-.partner{
+  .active a {
+    color: #ec5242 !important;
+  }
+
+  .hero-section article {
+    width: 75%;
+  }
+
+  .title {
+    width: 80%;
+  }
+
+  .mian-text {
+    width: 60%;
+  }
+
+  .partner {
     display: grid;
-}
+  }
 
-footer{
+  footer {
     display: grid;
-}
+  }
 }
