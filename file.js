@@ -13,6 +13,29 @@ closeMenu.addEventListener('click', () => {
   Menu.style.display = 'block';
 });
 
+// active classes
+const tabs = document.querySelectorAll('.nav-link');
+
+function setActiveLink() {
+  const Path = window.location.pathname;
+  tabs.forEach((link) => {
+    if (link.getAttribute('href') === Path) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+}
+
+setActiveLink();
+
+tabs.forEach((link) => {
+  link.addEventListener('click', () => {
+    tabs.forEach((link) => link.classList.remove('active'));
+    link.classList.add('active');
+  });
+});
+
 const data = [
   {
     name: 'Milton Njonya',
@@ -27,25 +50,25 @@ const data = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad',
   },
   {
-    name: 'Mousa YAYA',
+    name: 'Martin Bah',
     profession: 'Senoir Developer at Microsoft',
     Image: 'Images/speaker03.png',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad',
   },
   {
-    name: 'Mousa YAYA',
+    name: 'David Ngong',
     profession: 'Professor of Information Technology at Harvard University',
     Image: 'Images/speaker04.png',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad',
   },
   {
-    name: 'Mousa YAYA',
+    name: 'Milton Njonya',
     profession: 'CEO and Founder of  WEBDEV MENTORS',
     Image: 'Images/speaker05.png',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad',
   },
   {
-    name: 'Mousa YAYA',
+    name: 'Milton Njonya',
     profession: 'CEO and Founder of  WEBDEV MENTORS',
     Image: 'Images/speaker06.png',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad',
