@@ -15,23 +15,23 @@ closeMenu.addEventListener('click', () => {
 // active classes
 const tabs = document.querySelectorAll('.nav-link');
 
-function setActiveLink() {
+function setActiveTab() {
   const Path = window.location.href;
-  tabs.forEach((link) => {
-    if (link.href === Path) {
-      link.classList.add('active');
+  tabs.forEach((tab) => {
+    if (tab.href === Path) {
+      tab.classList.add('active');
     } else {
-      link.classList.remove('active');
+      tab.classList.remove('active');
     }
   });
 }
 
-setActiveLink();
+setActiveTab();
 
-tabs.forEach((link) => {
-  link.addEventListener('click', () => {
-    tabs.forEach((link) => link.classList.remove('active'));
-    link.classList.add('active');
+tabs.forEach((tab) => {
+  tab.addEventListener('click', () => {
+    tabs.forEach((tab) => tab.classList.remove('active'));
+    tab.classList.add('active');
   });
 });
 
