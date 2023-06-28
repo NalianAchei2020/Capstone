@@ -17,7 +17,8 @@ closeMenu.addEventListener('click', () => {
 const tabs = document.querySelectorAll('.nav-link');
 
 function setActiveLink() {
-  const Path = window.location.pathname;
+  const Path = window.location.href;
+  console.log(Path);
   tabs.forEach((link) => {
     if (link.getAttribute('href') === Path || link.getAttribute('href') === `.${Path}`) {
       link.classList.add('active');
