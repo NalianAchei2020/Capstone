@@ -13,13 +13,11 @@ closeMenu.addEventListener('click', () => {
   Menu.style.display = 'block';
 });
 
-console.log('Hi');
 // active classes
 const tabs = document.querySelectorAll('.nav-link');
 
 function setActiveLink() {
   const Path = window.location.href;
-  console.log(Path);
   tabs.forEach((link) => {
     if (link.href === Path) {
       link.classList.add('active');
