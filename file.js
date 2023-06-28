@@ -13,6 +13,7 @@ closeMenu.addEventListener('click', () => {
   Menu.style.display = 'block';
 });
 
+console.log('Hi');
 // active classes
 const tabs = document.querySelectorAll('.nav-link');
 
