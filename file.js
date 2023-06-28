@@ -20,7 +20,7 @@ function setActiveLink() {
   const Path = window.location.href;
   console.log(Path);
   tabs.forEach((link) => {
-    if (link.getAttribute('href') === Path || link.getAttribute('href') === `.${Path}`) {
+    if (link.href === Path) {
       link.classList.add('active');
     } else {
       link.classList.remove('active');
