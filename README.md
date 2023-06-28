@@ -55,7 +55,7 @@ This Capstone project is a mentorship platform for web developers. Here junior d
 - [Live Demo ](https://nalianachei2020.github.io/Capstone/)
 
 ## 📹 Live Video <a name="live-demo"></a>
-- [Live video ](https://nalianachei2020.github.io/Capstone/)
+- [Live video ](https://www.loom.com/share/5af4d66e2e0f48879af6412f49aee1e5)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
