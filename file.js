@@ -19,7 +19,7 @@ const tabs = document.querySelectorAll('.nav-link');
 function setActiveLink() {
   const Path = window.location.pathname;
   tabs.forEach((link) => {
-    if (link.getAttribute('href') === Path || link.getAttribute('href') === `.${Path}`) {
+    if (link.getAttribute('href') === `.${Path}`) {
       link.classList.add('active');
     } else {
       link.classList.remove('active');
