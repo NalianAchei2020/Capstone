@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 const Menu = document.getElementById('menu');
 const closeMenu = document.getElementById('close');
 const nav = document.querySelector('.nav-items');
@@ -85,7 +84,7 @@ document.querySelector('.speaker').innerHTML = data.map((item, index) => {
 
   btnMore.addEventListener('click', () => {
     const hideCard = document.querySelectorAll('.hide-card');
-    for (let i = 0; i < hideCard.length; i++) {
+    for (let i = 0; i < hideCard.length; i += 1) {
       hideCard[i].style.display = 'flex';
     }
     btnHide.style.display = 'block';
@@ -94,7 +93,7 @@ document.querySelector('.speaker').innerHTML = data.map((item, index) => {
 
   btnHide.addEventListener('click', () => {
     const hideCard = document.querySelectorAll('.hide-card');
-    for (let i = 0; i < hideCard.length; i++) {
+    for (let i = 0; i < hideCard.length; i += 1) {
       hideCard[i].style.display = 'none';
     }
     btnHide.style.display = 'none';
@@ -114,4 +113,4 @@ document.querySelector('.speaker').innerHTML = data.map((item, index) => {
             </div>
             </div>
     `;
-});
+}).join('');

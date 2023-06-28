@@ -1,6 +1,7 @@
 @media (min-width: 48em) {
   header {
     background-color: #272a31;
+    margin: 0;
     width: 100%;
     display: block;
   }
