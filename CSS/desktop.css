@@ -109,8 +109,9 @@
   .sec-title {
     color: #d3d3d3;
     margin: 20px auto;
-    width: 15%;
+    text-align: center;
     height: 40px;
+    width: 200px;
     display: block;
     position: relative;
   }
@@ -122,7 +123,7 @@
     position: absolute;
     background-color: #ec5242;
     display: block;
-    left: 25%;
+    left: 30%;
   }
 
   .content {
@@ -131,9 +132,9 @@
     justify-content: center;
     align-items: center;
     margin: 1px;
-    height: 240px;
+    height: 250px;
     background-color: rgba(39 42 49 / 75%);
-    width: 15%;
+    width: 33.3%;
     cursor: pointer;
   }
 
@@ -172,7 +173,8 @@
     color: #272a31;
     white-space: nowrap;
     margin: 20px auto;
-    width: 20%;
+    text-align: center;
+    width: 250px;
     height: 40px;
     display: block;
     position: relative;
@@ -185,7 +187,7 @@
     position: absolute;
     background-color: #ec5242;
     display: block;
-    left: 30%;
+    left: 40%;
   }
 
   .featured-speaker {
@@ -198,7 +200,8 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 95%;
+    gap: 1rem;
     margin: auto;
   }
 
@@ -212,10 +215,11 @@
     margin: 0.5em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 0.5em;
   }
-
+  .speaker-card-text {
+    width: 80%;
+    padding: 0.3em;
+}
   .partner {
     display: block;
   }
@@ -254,7 +258,11 @@
 
   /* about page */
   .title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
+    margin: auto;
   }
 
   .mian-text2 {
