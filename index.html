@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDev Mentors</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="CSS/reset.css">
@@ -20,20 +20,20 @@
     </ul>
   </header>  
   <div class="nav-container">
-    <h3 class="logo"><a href="/">WebDev</a></h3>
+    <h3 class="logo"><a href="./">WebDev</a></h3>
     <div class="icons">
     <i id="menu" class="fa-solid fa-bars"></i>
     <i id="close" class="fas fa-times-circle"></i>
     </div>
     <nav class="nav">
         <ul class="nav-items">
-            <li><a href="/" class="home">Home</a></li>
-            <li class="active"><a href="/about.html">About</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Sponsor</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Campaign</a></li>
+            <li><a class="nav-link" href="./" >Home</a></li>
+            <li><a class="nav-link" href="./about.html">About</a></li>
+            <li><a class="nav-link" href="#">Program</a></li>
+            <li><a class="nav-link" href="#">Join</a></li>
+            <li><a class="nav-link" href="#">Sponsor</a></li>
+            <li><a class="nav-link" href="#">News</a></li>
+            <li><a class="nav-link" href="#">Campaign</a></li>
         </ul>
     </nav>
   </div>
@@ -55,27 +55,27 @@
         <h2 class="sec-title">Main Program</h2>
         <article>
         <div class="content">
-        <img src="Images/icon-lecture.png" alt="icon" width="50px"/>
+        <img src="Images/icon-lecture.png" alt="icon" width="50px" height="40px"/>
         <h3>Lecture</h3>
         <p>Listen to the speakers from various countries.</p>
         </div>
         <div class="content">
-            <img src="Images/excihibit-icon.png" alt="icon"  width="50px" />
+            <img src="Images/excihibit-icon.png" alt="icon"  width="50px" height="40px" />
             <h3>Exhibition</h3>
             <p>Get access to more than 10,000 courses</p>
         </div>
         <div class="content">
-            <img src="Images/forum-icon.jpg" alt="icon"  width="50px"/>
+            <img src="Images/forum-icon.jpg" alt="icon"  width="50px" height="25px"/>
             <h3>Forum</h3>
             <p>Share your thoughts and opinons with a large community.</p>
         </div>
         <div class="content">
-            <img src="Images/workshop-icon.png" alt="icon" width="50px" />
+            <img src="Images/workshop-icon.png" alt="icon" width="50px" height="40px"/>
             <h3>Workshop</h3>
-            <p>Try creating your own work using open source license rather than just watching at it.</p>
+            <p>Try creating your own work using open source license.</p>
         </div>
         <div class="content">
-            <img src="Images/ignite-icon.png" alt="icon" width="50px" />
+            <img src="Images/ignite-icon.png" alt="icon" width="50px" height="40px"/>
             <h3>Organization</h3>
             <p>Get great opportunities. And get assist and help of experts.</p>
         </div>
@@ -94,25 +94,27 @@
             HIDE <i class="fa-solid fa-chevron-up" id="up"></i>
           </button>
     </section>
-    <section class="partner">
-        <h3>Partners</h3>
+    <section class="partner about-partner">
+        <h3>Partners and Sponsors</h3>
        <article>
-        <div>
+        <div  class="icons2">
         <i class="fa-brands fa-google"></i>
         </div>
-        <div>
+        <div  class="icons2">
             <i class="fa-brands fa-github"></i>
         </div>
-        <div>
+        <div  class="icons2">
             <i class="fa-brands fa-windows"></i>
         </div>
-        <div><i class="fa-brands fa-apple-pay"></i></div>
+        <div  class="icons2"><i class="fa-brands fa-apple-pay"></i></div>
        </article>
     </section>
 </main>
 <footer class="footer">
     <div class="footer-container">
-        <div>WebDev Mentors</div>
+        <div><a href="./" class="footer-logo">
+            <span class="black">Web</span><span class="red">Dev</span>
+          </a></div>
     <div>Copyright © 2023 All rights reserved</div>
     </div>
 </footer>
